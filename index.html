@@ -10,7 +10,8 @@
         }
 
         .vertical-center {
-            margin: 0;
+            margin-left: 5%;
+            margin-right: 5%;
             position: absolute;
             top: 50%;
             -ms-transform: translateY(-50%);
@@ -19,31 +20,32 @@
 
         body {
             background-color: #eeeeee;
-            text-align: right;
             color: #0c0c0c;
+            font-family: "helvetica";
         }
 
-        footer {
-            color: #0c0c0c;
-            padding: 1em;
-            margin-top: auto;
+        .footer {
+            position: absolute;
+            top: 95%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
         }
 
         h1 {
-            font-family: 'helvetica';
-            font-size: 5.9vw;
+            font-family: "helvetica";
+            font-size: 6vw;
             color: #eeeeee;
         }
 
         h2 {
-            font-family: 'helvetica';
-            font-size: 3vw;
+            font-family: "helvetica";
+            font-size: 4vw;
             color: #0c0c0c;
         }
 
         p {
-            font-family: 'helvetica';
-            font-size: 2vw;
+            font-family: "helvetica";
+            font-size: 3vw;
         }
 
         a:link,
@@ -54,7 +56,7 @@
             color: #eeeeee;
             text-decoration: none;
             background-color: #121921;
-            font-size: 50pt;
+            font-size: 5vw;
         }
     </style>
 </head>
@@ -62,33 +64,35 @@
 <body>
     <div class="container">
         <div class="vertical-center">
-            <h1 style="background-color: #0c0c0c;">@erniebernie</h1>
-            <br><br><br>
-            <h2>Go like, subscribe and hit the notification bell to my YouTube channel.</h2>
-            <br>
-            <a href="https://www.youtube.com/channel/UCvIRRYY0YaN-QljfaAif7DQ"
-                style="color:979797; background-color: #666666; font-size: 20pt; box-shadow: 5px 5px #341011;">
-                &nbsp;CLICK HERE!!!&nbsp;</a>
-            <br><br>
-            <p>and more.</p>
-            <br>
-            <i>
-                <a href="https://www.instagram.com/erniebernie/" style="background-color: #121921; font-size: 18pt;">
-                    my instagram.</a>
-                <br><br>
+            <div>
+                <h1 style="background-color: #0c0c0c; text-align: center;">@erniebernie</h1>
+                <br><br><br>
+                <h2>Go like, subscribe and hit the notification bell to my YouTube channel.</h2>
+                <br>
                 <a href="https://www.youtube.com/channel/UCvIRRYY0YaN-QljfaAif7DQ"
-                    style="background-color: #121921; font-size: 18pt;">
-                    my youtube.</a>
+                    style="color:979797; background-color: #666666; font-size: 20pt; box-shadow: 5px 5px #341011;">
+                    &nbsp;CLICK HERE!!!&nbsp;</a>
                 <br><br>
-                <a href="https://open.spotify.com/user/uie1da630wagu8dv9s255rtj8?si=f1657b8bad694755"
-                    style="font-size: 18pt;">
-                    my spotify.</a>
-            </i>
+            </div>
+            <div style="text-align: right;">
+                <p>and more.</p>
+                <br>
+                <i>
+                    <a href="https://www.instagram.com/erniebernie/">
+                        my instagram.</a>
+                    <br><br>
+                    <a href="https://www.youtube.com/channel/UCvIRRYY0YaN-QljfaAif7DQ">
+                        my youtube.</a>
+                    <br><br>
+                    <a href="https://open.spotify.com/user/uie1da630wagu8dv9s255rtj8?si=f1657b8bad694755">
+                        my spotify.</a>
+                </i>
+            </div>
+        </div>
+        <div class="footer">
+                <p>© Ernest Kwok 2022</p>
         </div>
     </div>
 </body>
-<footer>
-    <p style="text-align: center;">© Ernest Kwok 2022</p>
-</footer>
 
 </html>
